@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <h1 id="titulo">Deixe um Comentário</h1><br>
+
+    <form>
+            <div class="campo">
+                <label><strong>Nome</strong></label>
+                <input type="text" style="width: 30rem;" name="nome" id="nome" required>
+            </div>
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" style="width: 30rem;" name="email" id="email" required>
+            </div>
+            <div class="campo">
+                <label for="website"></label>
+            </div>
+
+        <div class="campo">
+            <label><strong>Comentário:</strong> </label>
+            <textarea rows="8" style="width: 30rem;" name="experiencia" id="experiencia"></textarea>
+        </div>
+        <h2>Observação: Seu comentário serám publicado após passar pelo moderador</h2>
+        
+        <button class="botao" type="submit">Enviar Comentário</button>
+    </form>
+</body>
+
+</html>
